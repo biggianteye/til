@@ -14,7 +14,7 @@ After faffing about for a few hours on this, I ended up just going down the path
 
 ```shell
 git clone git@github.com:username/my-repo.git && \
-    mv repo/some/directory . && \
+    mv my-repo/some/directory . && \
     rm -rf my-repo
 ```
 
