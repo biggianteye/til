@@ -1,4 +1,4 @@
-# NOT NULL without a DEFAULT
+# `NOT NULL` without a `DEFAULT`
 
 It turns out that you can add a `NOT NULL` column to a MySQL table with
 existing data without specifying a default value. MySQL will silently fill
