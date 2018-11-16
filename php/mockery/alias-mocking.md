@@ -45,6 +45,6 @@ This will route *all* calls to `Database` through the mock. This will work as it
 @preserveGlobalState disabled
 ```
 
-More details here: https://blog.gougousis.net/mocking-static-methods-with-mockery/
+More details here: <https://blog.gougousis.net/mocking-static-methods-with-mockery/>
 
 The Mockery [documentation](http://docs.mockery.io/en/latest/reference/creating_test_doubles.html#aliasing) does not recommend using aliasing, but it was a neat solution to the problem I had.
