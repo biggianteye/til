@@ -38,7 +38,7 @@ function testFoo() {
 }
 ```
 
-This will route *all* calls to `Database` through the mock. This will work as it if run standalone, but if you want to run it alongside other tests you have to add these annotations to each test:
+This will route *all* calls to `Database` through the mock. This will work as is if run standalone, but if you want to run it alongside other tests you have to add these annotations to each test:
 
 ```
 @runInSeparateProcess
