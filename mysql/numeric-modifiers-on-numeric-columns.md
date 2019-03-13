@@ -1,6 +1,6 @@
 # Numeric modifiers on numeric columns
 
-When you specific a value for a numeric column (eg. `int(3)`) it **does not affect storage**. It only affects display when used in conjunction with the `zerofill` property.
+When you specify a value for a numeric column (eg. `int(3)`) it **does not affect storage**. It only affects display when used in conjunction with the `zerofill` property.
 
 The reason this comes as a revelation to me is that in Oracle it *does* restrict storage. So trying to insert `1000` into a `number(3)` would result in this error:
 
