@@ -4,7 +4,7 @@ When you specify a value for a numeric column (eg. `int(3)`) it **does not affec
 
 The reason this comes as a revelation to me is that in Oracle it *does* restrict storage. So trying to insert `1000` into a `number(3)` would result in this error:
 
->  `ORA-01438: value larger than specified precision allowed for this column`
+> `ORA-01438: value larger than specified precision allowed for this column`
 
 Here is an answer to a Stack Overflow question that asks "What is the size of column of int(11) in mysql in bytes?": <https://stackoverflow.com/a/27519793/966703>
 
