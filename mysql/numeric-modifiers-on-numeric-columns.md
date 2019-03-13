@@ -6,7 +6,7 @@ The reason this comes as a revelation to me is that in Oracle it *does* restrict
 
 >  `ORA-01438: value larger than specified precision allowed for this column`
 
-Here is an answer to a Stack Overflow question that asks "What is the size of column of int(11) in mysql in bytes?": https://stackoverflow.com/a/27519793/966703
+Here is an answer to a Stack Overflow question that asks "What is the size of column of int(11) in mysql in bytes?": <https://stackoverflow.com/a/27519793/966703>
 
 The important part from that answer:
 
