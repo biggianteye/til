@@ -4,6 +4,7 @@ We constantly learn new things. This is a repo to share those learnings. TILs ar
 
 Inspired by <https://github.com/thoughtbot/til>
 
+- [git](git/index.md)
 - [Github](github/index.md)
 - [Go](go/index.md)
 - [Google Drive](google-drive/index.md)
