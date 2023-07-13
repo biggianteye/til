@@ -1,4 +1,4 @@
-# Google Docs - Save default styles
+# Save default styles
 
 I use Google Docs for both work and personal stuff. I always change the default font in new documents because I find Arial gross. Given how simplistic Google Docs is when it comes to styles (eg. no custom styles such as `code`) I had always assumed that it offered no way to save them for all new documents.
 

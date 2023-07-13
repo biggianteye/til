@@ -23,4 +23,4 @@ It's gross, but it does the job. #pragmatism
 ## Links
 * Stack Overflow: [Download a single folder or directory from a GitHub repo
 ](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo)
-* https://twitter.com/GitHubHelp/status/322818593748303873
+* <https://twitter.com/GitHubHelp/status/322818593748303873>

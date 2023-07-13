@@ -16,4 +16,4 @@ function foo(stdClass $bar) {
 
 PHP 7.2 introduced the `object` type hint which *can* be used for this purpose.
 
-https://stackoverflow.com/questions/7839059/type-hinting-for-any-object
+<https://stackoverflow.com/questions/7839059/type-hinting-for-any-object>
