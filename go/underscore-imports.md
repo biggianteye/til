@@ -1,6 +1,6 @@
 # Underscore imports
 
-In git you can use an underscore (`_`) for variables or function return
+In go you can use an underscore (`_`) for variables or function return
 values that you want to ignore. The same syntax can be applied to import
 statements. eg.
 
