@@ -1,12 +1,17 @@
 # Numeric modifiers on numeric columns
 
-When you specify a value for a numeric column (eg. `int(3)`) it **does not affect storage**. It only affects display when used in conjunction with the `zerofill` property.
+When you specify a value for a numeric column (eg. `int(3)`) it **does not
+affect storage**. It only affects display when used in conjunction with the
+`zerofill` property.
 
-The reason this comes as a revelation to me is that in Oracle it *does* restrict storage. So trying to insert `1000` into a `number(3)` would result in this error:
+The reason this comes as a revelation to me is that in Oracle it *does*
+restrict storage. So trying to insert `1000` into a `number(3)` would
+result in this error:
 
 > `ORA-01438: value larger than specified precision allowed for this column`
 
-Here is an answer to a Stack Overflow question that asks "What is the size of column of int(11) in mysql in bytes?": <https://stackoverflow.com/a/27519793/966703>
+Here is an answer to a Stack Overflow question that asks
+"What is the size of column of int(11) in mysql in bytes?": <https://stackoverflow.com/a/27519793/966703>
 
 The important part from that answer:
 
@@ -45,4 +50,5 @@ mysql> select * from mind_blown;
 4 rows in set (0.00 sec)
 ```
 
-In conclusion, unless you are using `zerofill`, don't waste your time trying to work out what is the optimal number to use.
+In conclusion, unless you are using `zerofill`, don't waste your time
+trying to work out what is the optimal number to use.
