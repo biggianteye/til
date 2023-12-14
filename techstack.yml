@@ -1,0 +1,18 @@
+repo_name: biggianteye/til
+report_id: a9f0438d4ea8d0808d215f6d142c9b2f
+repo_type: Public
+timestamp: '2023-12-14T18:07:54+00:00'
+requested_by: biggianteye
+provider: github
+branch: main
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
